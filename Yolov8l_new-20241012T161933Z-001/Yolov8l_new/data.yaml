@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['ajul', 'izzata', 'joy', 'kelvin', 'lia', 'trisman']
+
+roboflow:
+  workspace: classify-rvhxc
+  project: classify-dp9bn
+  version: 8
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/classify-rvhxc/classify-dp9bn/dataset/8
